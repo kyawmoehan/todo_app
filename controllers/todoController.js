@@ -2,7 +2,7 @@ const express = require('express');
 const mongoose = require('mongoose');
 
 // connect to database
-const MONGODB_URI = "mongodb+srv://todo_app:todo_12345@todo-p07dj.mongodb.net/test?retryWrites=true&w=majority";
+const MONGODB_URI = "mongodb+srv://todo_app:<password>@todo-p07dj.mongodb.net/test?retryWrites=true&w=majority";
 mongoose.connect(MONGODB_URI, {
     useNewUrlParser: true,
     useUnifiedTopology: true
